@@ -1,3 +1,5 @@
+简单说明
+=======
 主要用于自己的Newifi3的订制，所以所有的改动和测试都是基于Newifi3，在稳定后会考虑 Mi-R3G，Mi-R3P和E8820S
 
 自己主要用到的插件除了常用的$$R之外，只包含：
@@ -9,7 +11,7 @@
 会去除ipset带不兼容windows的目录，确保能够被clone到windows环境里。
 
 下面是Keke的关于仓库的订制说明
-==================================
+
 新增了对交换芯片RTL8367S的支持，相关的机型为以MTK7620A/DA为主控外接交换芯片实现千兆有线的水星D12G，Tplink C5 v4等等  
 源码来自于https://gitlab.com/dm38/padavan-ng  
 相关提交为https://gitlab.com/dm38/padavan-ng/-/commit/4ec2acb96dccc268ec23aa71b8f5fcb283b9e122  
@@ -39,4 +41,5 @@ https://github.com/immortalwrt/padavan
 wifi密码1234567890  
 管理地址192.168.123.1  
 管理账号密码都是admin  
+
 =================================
